@@ -128,7 +128,7 @@ ul {
 .carousel-wrapper {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
-  width: 80%;
+  width: 78%;
   height: 400px;
   overflow: hidden;
   margin: 0 auto;
