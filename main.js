@@ -16,12 +16,12 @@ function slides() {
   let imageWidth = 0;
 
   setInterval(() => {
-    imageWidth += 1000;
+    imageWidth += 615;
     images.forEach((image) => {
       image.style.transform = `translateX(${-imageWidth}px)`;
     });
-    if (imageWidth === (images.length - 1) * 1000) {
-      imageWidth = -1000;
+    if (imageWidth === (images.length - 1) * 615) {
+      imageWidth = -615;
     }
   }, 3000);
 }

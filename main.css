@@ -126,19 +126,18 @@ ul {
   margin-bottom: 30px;
 }
 .carousel-wrapper {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto;
-  width: 78%;
-  height: 400px;
+  width: 53%;
+  display: flex;
+  /* height: 400px; */
   overflow: hidden;
   margin: 0 auto;
   border: 1px solid white;
 }
+
 .carousel-wrapper img {
-  width: 1000px;
-  height: 100%;
   transform: translateX(0px);
   transition: 0.3s ease-in-out;
+  width: 100%;
 }
 
 #planets {
